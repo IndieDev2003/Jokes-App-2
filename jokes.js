@@ -2,7 +2,6 @@ let jokepara = document.querySelector("#joke-para")
 const resetJoke=document.querySelector("#reset-joke")
 const apiUrl="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw&type=single"
 
-// jokepara.style.display="none"
 
 async function ShowJoke(){
 
